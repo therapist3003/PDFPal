@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PDFChatbot_UI", "PDFChatbot_UI.csproj", "{9211A58B-58A0-4D18-B15C-DA2CB45F0411}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9211A58B-58A0-4D18-B15C-DA2CB45F0411}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9211A58B-58A0-4D18-B15C-DA2CB45F0411}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9211A58B-58A0-4D18-B15C-DA2CB45F0411}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9211A58B-58A0-4D18-B15C-DA2CB45F0411}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0B422B28-C733-417B-959C-D911440C8810}
+	EndGlobalSection
+EndGlobal

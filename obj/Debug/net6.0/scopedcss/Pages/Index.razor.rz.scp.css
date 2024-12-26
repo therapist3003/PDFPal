@@ -1,0 +1,128 @@
+.sidebar[b-ofhebys15e] {
+    background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #3a0647 80%);
+    display: flex;
+    flex-direction: column;
+}
+
+.top-row[b-ofhebys15e] {
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #d6d5d5;
+    justify-content: flex-end;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+}
+
+    .top-row[b-ofhebys15e]  a, .top-row .btn-link[b-ofhebys15e] {
+        white-space: nowrap;
+        margin-left: 1.5rem;
+    }
+
+    .top-row a:first-child[b-ofhebys15e] {
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    
+.home-container[b-ofhebys15e]{
+    display: flex;
+}
+
+.body[b-ofhebys15e] {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.chat-container[b-ofhebys15e] {
+    display: flex;
+    background-color: #212121;
+    flex-grow: 1;
+    justify-content: center;
+
+}
+
+.chat-window[b-ofhebys15e]{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    justify-content: center;
+    padding-bottom: 10px;
+    height: 94%;
+}
+
+.welcome-txt[b-ofhebys15e]{
+    color: white;
+    font-size: 30px;
+}
+
+.prompt-sec[b-ofhebys15e]{
+    background-color: #2f2f2f;
+    border-radius: 10px;
+    width: 100%;
+    min-height: 60px;
+    height:auto;
+    overflow: visible;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 5px;
+}
+
+.prompt-txt-sec[b-ofhebys15e]{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.prompt-txt-box[b-ofhebys15e]{
+    background-color: #2f2f2f;
+    color: white;
+    border: none;
+    width: 95%;
+    outline: none;
+}
+
+.attachments-sec[b-ofhebys15e]{
+    display: flex;
+    gap: 10px;
+}
+
+.attach-pdf-btn[b-ofhebys15e] {
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+.send-prompt-btn[b-ofhebys15e] {
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+.prev-msgs[b-ofhebys15e] {
+    width: 100%;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 10px;
+    height: 85vh;
+    padding-right: 50px;
+    overflow-y: auto;
+}
+
+.msg[b-ofhebys15e] {
+    color: white;
+    border-radius: 20px;
+    background-color: #303030;
+    padding: 10px 20px;
+    width: fit-content;
+    display: flex;
+}
+
+.chatbot-icon[b-ofhebys15e]{
+    border-radius: 10px;
+    background-color: dimgrey;
+    margin-right: 5px;
+}

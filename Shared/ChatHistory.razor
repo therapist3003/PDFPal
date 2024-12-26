@@ -1,0 +1,67 @@
+﻿@inject NavigationManager _navman
+
+@using Microsoft.AspNetCore.WebUtilities
+
+<div class="top-row ps-3 navbar navbar-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="">PDF Pal</a>
+    </div>
+</div>
+
+<div class="chat-history-sec">
+    @foreach (var chat in chatHistory)
+    {
+        <div class="chat-instance @(selectedChatID==chat.ID ? "active" : "")" title="@chat.Title" @onclick="() => UpdateSelectedChat(chat.ID)">
+            @chat.Title
+        </div>
+    }
+</div>
+
+@code {
+    [Parameter]
+    public string? selectedChatID { get; set; }
+
+    private List<Chat> chatHistory = new List<Chat>(){
+        new Chat()
+        {
+            ID = "d3992cf97c6c2505",
+            Title = "LDA vs. PCA"
+        },
+        new Chat()
+        {
+            ID = "0eed939eca93098e",
+            Title = "Clustering Metrics Overview"
+        }
+    };
+
+    public class Chat{
+        public string? ID { get; set; }
+        public string? Title { get; set; }
+    }
+
+    protected override void OnInitialized()
+    {
+        base.OnInitialized();
+    }
+
+    protected override void OnParametersSet()
+    {
+        base.OnParametersSet();
+    }
+
+    private void UpdateSelectedChat(string? chatID)
+    {
+        var currentUri = _navman.Uri;
+        Uri uri = new Uri(currentUri);
+
+        string baseUrl = uri.GetLeftPart(UriPartial.Path);
+        var queryParams = QueryHelpers.ParseQuery(uri.Query);
+
+        queryParams["chatID"] = chatID;
+
+        var newQueryString = string.Join("&", queryParams.Select(kv => $"{kv.Key}={kv.Value}"));
+
+        string newUrl = $"{baseUrl}?{newQueryString}";
+        _navman.NavigateTo(newUrl);
+    }
+}

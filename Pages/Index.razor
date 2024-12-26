@@ -1,0 +1,188 @@
+﻿@page "/"
+
+<PageTitle>PDF Pal</PageTitle>
+
+<div class="home-container">
+    <div class="sidebar">
+        <ChatHistory selectedChatID="@selectedChatID"/>
+    </div>
+
+    <div class="body">
+        <div class="top-row px-4">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+                <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10s-3.516.68-4.168 1.332c-.678.678-.83 1.418-.832 1.664z" />
+            </svg>
+        </div>
+        
+        <div class="chat-container">
+            <div class="chat-window">
+                <span class="welcome-txt" style="@(chatStarted ? "display: none;" : "")">What can I help with?</span>
+
+                    @if (chatStarted)
+                    {
+                        <div class="prev-msgs">
+                            @foreach(var msg in messages)
+                            {
+                                <div class="msg" style="@(msg.msgIsQuery ? "margin-left: auto;" : "")">
+                                    @if (!msg.msgIsQuery)
+                                    {
+                                        <div class="chatbot-icon">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-stars" viewBox="0 0 16 16">
+                                                <path d="M7.657 6.247c.11-.33.576-.33.686 0l.645 1.937a2.89 2.89 0 0 0 1.829 1.828l1.936.645c.33.11.33.576 0 .686l-1.937.645a2.89 2.89 0 0 0-1.828 1.829l-.645 1.936a.361.361 0 0 1-.686 0l-.645-1.937a2.89 2.89 0 0 0-1.828-1.828l-1.937-.645a.361.361 0 0 1 0-.686l1.937-.645a2.89 2.89 0 0 0 1.828-1.828zM3.794 1.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387A1.73 1.73 0 0 0 4.593 5.69l-.387 1.162a.217.217 0 0 1-.412 0L3.407 5.69A1.73 1.73 0 0 0 2.31 4.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387A1.73 1.73 0 0 0 3.407 2.31zM10.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.16 1.16 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.16 1.16 0 0 0-.732-.732L9.1 2.137a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732z" />
+                                            </svg>
+                                        </div>
+                                        <div class="response-msg">
+                                            @msg.text
+                                        </div>
+                                    }
+                                    else
+                                    {
+                                        <div class="query-msg">
+                                            @msg.text
+                                        </div>
+                                    }
+                                </div>
+                            }
+                        </div>
+                    }
+
+                <div class="prompt-sec" style="@(chatStarted ? "margin-top: auto;" : "")">
+                    <div class="prompt-txt-sec">
+                        <input type="text" class="prompt-txt-box" placeholder="Message PDFPal" @bind="prompt" @bind:event="oninput" @onkeydown="OnKeyDown"/>
+
+                        <div class="attachments-sec">
+                            @* <MudFileUpload T="IReadOnlyList<IBrowserFile>" multiple>
+                                <ButtonTemplate>
+                                    <MudIconButton Icon="@Icons.Material.Filled.AttachFile" aria-label="attach-file"></MudIconButton>
+                                </ButtonTemplate>
+                                <SelectedTemplate>
+                                    @if (context != null)
+                                    {
+                                        @foreach (var file in context)
+                                        {
+                                            <MudText>@file.Name</MudText>
+                                        }
+                                    }
+                                    else
+                                    {
+                                        <MudText>No Files</MudText>
+                                    }
+                                </SelectedTemplate>
+                            </MudFileUpload> *@
+                            <MudFileUpload T="IBrowserFile" FilesChanged="UploadFiles">
+                                <ButtonTemplate>
+                                    <MudFab HtmlTag="label"
+                                            Color="Color.Success"
+                                            Icon="@Icons.Material.Filled.AttachFile"
+                                            for="@context.Id" Size="Size.Small"/>
+                                </ButtonTemplate>
+                            </MudFileUpload>
+                            @* <button class="attach-pdf-btn" @onclick="OnPDFAttach">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-paperclip" viewBox="0 0 16 16">
+                                    <path d="M4.5 3a2.5 2.5 0 0 1 5 0v9a1.5 1.5 0 0 1-3 0V5a.5.5 0 0 1 1 0v7a.5.5 0 0 0 1 0V3a1.5 1.5 0 1 0-3 0v9a2.5 2.5 0 0 0 5 0V5a.5.5 0 0 1 1 0v7a3.5 3.5 0 1 1-7 0z" />
+                                </svg>
+                            </button> *@
+                        </div>
+
+                        <MudIconButton Icon="@Icons.Material.Filled.Send" Variant="Variant.Outlined" Color="Color.Success" Size="Size.Small" @onclick="OnPromptSubmit" />
+
+                        @* <button class="send-prompt-btn" @onclick="OnPromptSubmit">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-send-fill" viewBox="0 0 16 16">
+                                <path d="M15.964.686a.5.5 0 0 0-.65-.65L.767 5.855H.766l-.452.18a.5.5 0 0 0-.082.887l.41.26.001.002 4.995 3.178 3.178 4.995.002.002.26.41a.5.5 0 0 0 .886-.083zm-1.833 1.89L6.637 10.07l-.215-.338a.5.5 0 0 0-.154-.154l-.338-.215 7.494-7.494 1.178-.471z" />
+                            </svg>
+                        </button> *@
+                    </div>
+
+                    @if (files != null)
+                    {
+                        <MudText Typo="@Typo.h6">@files.Count() File@(files.Count() == 1 ? "" : "s"):</MudText>
+                        <MudList>
+                            @foreach (var file in files)
+                            {
+                                <MudListItem Icon="@Icons.Material.Filled.AttachFile" @key="@file">
+                                    @file.Name
+                                </MudListItem>
+                            }
+                        </MudList>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@code {
+    [Parameter]
+    [SupplyParameterFromQuery(Name = "chatID")]
+    public string? selectedChatID { get; set; }
+
+    private List<Message> messages = new List<Message>()
+    {
+    };
+
+    IList<IBrowserFile> files = new List<IBrowserFile>();
+    private void UploadFiles(IBrowserFile file)
+    {
+        files.Add(file);
+        //TODO upload the files to the server
+    }
+
+    private bool chatStarted { get; set; }
+
+    private string? prompt { get; set; }
+    private string? response { get; set; }
+
+    protected override void OnParametersSet()
+    {
+        StateHasChanged();
+    }
+
+    private void OnKeyDown(KeyboardEventArgs e)
+    {
+        if (e.Key == "Enter")
+        {
+            OnPromptSubmit();
+        }
+    }
+
+    private void OnPromptSubmit()
+    {
+        if (!chatStarted)
+        {
+            chatStarted = true;
+        }
+
+        messages.Add(new Message(){text = prompt, msgIsQuery = true});
+
+        response = GetResponseFromModel();
+        prompt = "";
+        messages.Add(new Message() { text = response, msgIsQuery = false });
+    }
+
+    private void OnPDFAttach()
+    {
+
+    }
+
+    private string GetResponseFromModel()
+    {
+        if (prompt == "Hi")
+        {
+            return "Hi, there";
+        }
+        else
+        {
+            return "Based on the provided document, Jupiter is the largest planet in the Solar System.";
+        }
+        //return "";
+        //string? tempResponse = "Hi, there";
+        // Attach API code to get response from model
+        //return tempResponse;
+    }
+
+    private class Message
+    {
+        public string? text { get; set; }
+        public bool msgIsQuery { get; set; }
+    };
+}

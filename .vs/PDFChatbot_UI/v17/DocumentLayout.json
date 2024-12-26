@@ -1,0 +1,281 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Academics\\Christmas hackathon\\PDFChatbot_UI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9211A58B-58A0-4D18-B15C-DA2CB45F0411}|PDFChatbot_UI.csproj|d:\\academics\\christmas hackathon\\pdfchatbot_ui\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9211A58B-58A0-4D18-B15C-DA2CB45F0411}|PDFChatbot_UI.csproj|solutionrelative:pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9211A58B-58A0-4D18-B15C-DA2CB45F0411}|PDFChatbot_UI.csproj|d:\\academics\\christmas hackathon\\pdfchatbot_ui\\shared\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9211A58B-58A0-4D18-B15C-DA2CB45F0411}|PDFChatbot_UI.csproj|solutionrelative:shared\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9211A58B-58A0-4D18-B15C-DA2CB45F0411}|PDFChatbot_UI.csproj|d:\\academics\\christmas hackathon\\pdfchatbot_ui\\shared\\chathistory.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{9211A58B-58A0-4D18-B15C-DA2CB45F0411}|PDFChatbot_UI.csproj|solutionrelative:shared\\chathistory.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9211A58B-58A0-4D18-B15C-DA2CB45F0411}|PDFChatbot_UI.csproj|d:\\academics\\christmas hackathon\\pdfchatbot_ui\\shared\\chathistory.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9211A58B-58A0-4D18-B15C-DA2CB45F0411}|PDFChatbot_UI.csproj|solutionrelative:shared\\chathistory.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9211A58B-58A0-4D18-B15C-DA2CB45F0411}|PDFChatbot_UI.csproj|d:\\academics\\christmas hackathon\\pdfchatbot_ui\\pages\\index.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{9211A58B-58A0-4D18-B15C-DA2CB45F0411}|PDFChatbot_UI.csproj|solutionrelative:pages\\index.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9211A58B-58A0-4D18-B15C-DA2CB45F0411}|PDFChatbot_UI.csproj|d:\\academics\\christmas hackathon\\pdfchatbot_ui\\shared\\mainlayout.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{9211A58B-58A0-4D18-B15C-DA2CB45F0411}|PDFChatbot_UI.csproj|solutionrelative:shared\\mainlayout.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9211A58B-58A0-4D18-B15C-DA2CB45F0411}|PDFChatbot_UI.csproj|d:\\academics\\christmas hackathon\\pdfchatbot_ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9211A58B-58A0-4D18-B15C-DA2CB45F0411}|PDFChatbot_UI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9211A58B-58A0-4D18-B15C-DA2CB45F0411}|PDFChatbot_UI.csproj|d:\\academics\\christmas hackathon\\pdfchatbot_ui\\pages\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9211A58B-58A0-4D18-B15C-DA2CB45F0411}|PDFChatbot_UI.csproj|solutionrelative:pages\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9211A58B-58A0-4D18-B15C-DA2CB45F0411}|PDFChatbot_UI.csproj|d:\\academics\\christmas hackathon\\pdfchatbot_ui\\pages\\_host.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9211A58B-58A0-4D18-B15C-DA2CB45F0411}|PDFChatbot_UI.csproj|solutionrelative:pages\\_host.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9211A58B-58A0-4D18-B15C-DA2CB45F0411}|PDFChatbot_UI.csproj|d:\\academics\\christmas hackathon\\pdfchatbot_ui\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9211A58B-58A0-4D18-B15C-DA2CB45F0411}|PDFChatbot_UI.csproj|solutionrelative:_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9211A58B-58A0-4D18-B15C-DA2CB45F0411}|PDFChatbot_UI.csproj|d:\\academics\\christmas hackathon\\pdfchatbot_ui\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9211A58B-58A0-4D18-B15C-DA2CB45F0411}|PDFChatbot_UI.csproj|solutionrelative:pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9211A58B-58A0-4D18-B15C-DA2CB45F0411}|PDFChatbot_UI.csproj|d:\\academics\\christmas hackathon\\pdfchatbot_ui\\pages\\fetchdata.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9211A58B-58A0-4D18-B15C-DA2CB45F0411}|PDFChatbot_UI.csproj|solutionrelative:pages\\fetchdata.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9211A58B-58A0-4D18-B15C-DA2CB45F0411}|PDFChatbot_UI.csproj|d:\\academics\\christmas hackathon\\pdfchatbot_ui\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9211A58B-58A0-4D18-B15C-DA2CB45F0411}|PDFChatbot_UI.csproj|solutionrelative:app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9211A58B-58A0-4D18-B15C-DA2CB45F0411}|PDFChatbot_UI.csproj|d:\\academics\\christmas hackathon\\pdfchatbot_ui\\shared\\navmenu.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{9211A58B-58A0-4D18-B15C-DA2CB45F0411}|PDFChatbot_UI.csproj|solutionrelative:shared\\navmenu.razor.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9211A58B-58A0-4D18-B15C-DA2CB45F0411}|PDFChatbot_UI.csproj|d:\\academics\\christmas hackathon\\pdfchatbot_ui\\shared\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9211A58B-58A0-4D18-B15C-DA2CB45F0411}|PDFChatbot_UI.csproj|solutionrelative:shared\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ChatHistory.razor",
+              "DocumentMoniker": "D:\\Academics\\Christmas hackathon\\PDFChatbot_UI\\Shared\\ChatHistory.razor",
+              "RelativeDocumentMoniker": "Shared\\ChatHistory.razor",
+              "ToolTip": "D:\\Academics\\Christmas hackathon\\PDFChatbot_UI\\Shared\\ChatHistory.razor",
+              "RelativeToolTip": "Shared\\ChatHistory.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-25T07:47:47.106Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ChatHistory.razor.css",
+              "DocumentMoniker": "D:\\Academics\\Christmas hackathon\\PDFChatbot_UI\\Shared\\ChatHistory.razor.css",
+              "RelativeDocumentMoniker": "Shared\\ChatHistory.razor.css",
+              "ToolTip": "D:\\Academics\\Christmas hackathon\\PDFChatbot_UI\\Shared\\ChatHistory.razor.css",
+              "RelativeToolTip": "Shared\\ChatHistory.razor.css",
+              "ViewState": "AQIAADEAAAAAAAAAAAAtwEIAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-25T07:53:18.698Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "D:\\Academics\\Christmas hackathon\\PDFChatbot_UI\\Shared\\MainLayout.razor",
+              "RelativeDocumentMoniker": "Shared\\MainLayout.razor",
+              "ToolTip": "D:\\Academics\\Christmas hackathon\\PDFChatbot_UI\\Shared\\MainLayout.razor",
+              "RelativeToolTip": "Shared\\MainLayout.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-25T06:55:41.32Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainLayout.razor.css",
+              "DocumentMoniker": "D:\\Academics\\Christmas hackathon\\PDFChatbot_UI\\Shared\\MainLayout.razor.css",
+              "RelativeDocumentMoniker": "Shared\\MainLayout.razor.css",
+              "ToolTip": "D:\\Academics\\Christmas hackathon\\PDFChatbot_UI\\Shared\\MainLayout.razor.css",
+              "RelativeToolTip": "Shared\\MainLayout.razor.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-25T08:15:25.284Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.razor",
+              "DocumentMoniker": "D:\\Academics\\Christmas hackathon\\PDFChatbot_UI\\Pages\\Index.razor",
+              "RelativeDocumentMoniker": "Pages\\Index.razor",
+              "ToolTip": "D:\\Academics\\Christmas hackathon\\PDFChatbot_UI\\Pages\\Index.razor",
+              "RelativeToolTip": "Pages\\Index.razor",
+              "ViewState": "AQIAAKIAAAAAAAAAAAAAAKgAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-25T06:54:33.722Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.razor.css",
+              "DocumentMoniker": "D:\\Academics\\Christmas hackathon\\PDFChatbot_UI\\Pages\\Index.razor.css",
+              "RelativeDocumentMoniker": "Pages\\Index.razor.css",
+              "ToolTip": "D:\\Academics\\Christmas hackathon\\PDFChatbot_UI\\Pages\\Index.razor.css",
+              "RelativeToolTip": "Pages\\Index.razor.css",
+              "ViewState": "AQIAAD4AAAAAAAAAAAAYwEUAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-25T11:04:01.981Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Academics\\Christmas hackathon\\PDFChatbot_UI\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Academics\\Christmas hackathon\\PDFChatbot_UI\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T11:35:47.486Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Academics\\Christmas hackathon\\PDFChatbot_UI\\Pages\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Pages\\_Layout.cshtml",
+              "ToolTip": "D:\\Academics\\Christmas hackathon\\PDFChatbot_UI\\Pages\\_Layout.cshtml",
+              "RelativeToolTip": "Pages\\_Layout.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAACIAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-26T02:54:27.632Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_Host.cshtml",
+              "DocumentMoniker": "D:\\Academics\\Christmas hackathon\\PDFChatbot_UI\\Pages\\_Host.cshtml",
+              "RelativeDocumentMoniker": "Pages\\_Host.cshtml",
+              "ToolTip": "D:\\Academics\\Christmas hackathon\\PDFChatbot_UI\\Pages\\_Host.cshtml",
+              "RelativeToolTip": "Pages\\_Host.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-25T11:35:53.187Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "D:\\Academics\\Christmas hackathon\\PDFChatbot_UI\\_Imports.razor",
+              "RelativeDocumentMoniker": "_Imports.razor",
+              "ToolTip": "D:\\Academics\\Christmas hackathon\\PDFChatbot_UI\\_Imports.razor",
+              "RelativeToolTip": "_Imports.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-25T06:55:26.483Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Counter.razor",
+              "DocumentMoniker": "D:\\Academics\\Christmas hackathon\\PDFChatbot_UI\\Pages\\Counter.razor",
+              "RelativeDocumentMoniker": "Pages\\Counter.razor",
+              "ToolTip": "D:\\Academics\\Christmas hackathon\\PDFChatbot_UI\\Pages\\Counter.razor",
+              "RelativeToolTip": "Pages\\Counter.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-25T18:18:01.054Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "FetchData.razor",
+              "DocumentMoniker": "D:\\Academics\\Christmas hackathon\\PDFChatbot_UI\\Pages\\FetchData.razor",
+              "RelativeDocumentMoniker": "Pages\\FetchData.razor",
+              "ToolTip": "D:\\Academics\\Christmas hackathon\\PDFChatbot_UI\\Pages\\FetchData.razor",
+              "RelativeToolTip": "Pages\\FetchData.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-25T17:36:46.992Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "App.razor",
+              "DocumentMoniker": "D:\\Academics\\Christmas hackathon\\PDFChatbot_UI\\App.razor",
+              "RelativeDocumentMoniker": "App.razor",
+              "ToolTip": "D:\\Academics\\Christmas hackathon\\PDFChatbot_UI\\App.razor",
+              "RelativeToolTip": "App.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-25T06:55:20.742Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "D:\\Academics\\Christmas hackathon\\PDFChatbot_UI\\Shared\\NavMenu.razor",
+              "RelativeDocumentMoniker": "Shared\\NavMenu.razor",
+              "ToolTip": "D:\\Academics\\Christmas hackathon\\PDFChatbot_UI\\Shared\\NavMenu.razor",
+              "RelativeToolTip": "Shared\\NavMenu.razor",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAuwCcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-25T07:48:50.199Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "NavMenu.razor.css",
+              "DocumentMoniker": "D:\\Academics\\Christmas hackathon\\PDFChatbot_UI\\Shared\\NavMenu.razor.css",
+              "RelativeDocumentMoniker": "Shared\\NavMenu.razor.css",
+              "ToolTip": "D:\\Academics\\Christmas hackathon\\PDFChatbot_UI\\Shared\\NavMenu.razor.css",
+              "RelativeToolTip": "Shared\\NavMenu.razor.css",
+              "ViewState": "AQIAAA8AAAAAAAAAAIBZwCsAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-25T07:53:22.212Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

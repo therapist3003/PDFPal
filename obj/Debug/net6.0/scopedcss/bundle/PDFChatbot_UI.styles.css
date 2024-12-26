@@ -1,0 +1,329 @@
+/* _content/PDFChatbot_UI/Pages/Index.razor.rz.scp.css */
+.sidebar[b-ofhebys15e] {
+    background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #3a0647 80%);
+    display: flex;
+    flex-direction: column;
+}
+
+.top-row[b-ofhebys15e] {
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #d6d5d5;
+    justify-content: flex-end;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+}
+
+    .top-row[b-ofhebys15e]  a, .top-row .btn-link[b-ofhebys15e] {
+        white-space: nowrap;
+        margin-left: 1.5rem;
+    }
+
+    .top-row a:first-child[b-ofhebys15e] {
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    
+.home-container[b-ofhebys15e]{
+    display: flex;
+}
+
+.body[b-ofhebys15e] {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.chat-container[b-ofhebys15e] {
+    display: flex;
+    background-color: #212121;
+    flex-grow: 1;
+    justify-content: center;
+
+}
+
+.chat-window[b-ofhebys15e]{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    justify-content: center;
+    padding-bottom: 10px;
+    height: 94%;
+}
+
+.welcome-txt[b-ofhebys15e]{
+    color: white;
+    font-size: 30px;
+}
+
+.prompt-sec[b-ofhebys15e]{
+    background-color: #2f2f2f;
+    border-radius: 10px;
+    width: 100%;
+    min-height: 60px;
+    height:auto;
+    overflow: visible;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 5px;
+}
+
+.prompt-txt-sec[b-ofhebys15e]{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.prompt-txt-box[b-ofhebys15e]{
+    background-color: #2f2f2f;
+    color: white;
+    border: none;
+    width: 95%;
+    outline: none;
+}
+
+.attachments-sec[b-ofhebys15e]{
+    display: flex;
+    gap: 10px;
+}
+
+.attach-pdf-btn[b-ofhebys15e] {
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+.send-prompt-btn[b-ofhebys15e] {
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+.prev-msgs[b-ofhebys15e] {
+    width: 100%;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 10px;
+    height: 85vh;
+    padding-right: 50px;
+    overflow-y: auto;
+}
+
+.msg[b-ofhebys15e] {
+    color: white;
+    border-radius: 20px;
+    background-color: #303030;
+    padding: 10px 20px;
+    width: fit-content;
+    display: flex;
+}
+
+.chatbot-icon[b-ofhebys15e]{
+    border-radius: 10px;
+    background-color: dimgrey;
+    margin-right: 5px;
+}
+/* _content/PDFChatbot_UI/Shared/ChatHistory.razor.rz.scp.css */
+.top-row[b-sm1ypekexq] {
+    height: 3.5rem;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.navbar-brand[b-sm1ypekexq] {
+    font-size: 1.1rem;
+}
+
+.oi[b-sm1ypekexq] {
+    width: 2rem;
+    font-size: 1.1rem;
+    vertical-align: text-top;
+    top: -2px;
+}
+
+.nav-item[b-sm1ypekexq] {
+    font-size: 0.9rem;
+    padding-bottom: 0.5rem;
+}
+
+    .nav-item:first-of-type[b-sm1ypekexq] {
+        padding-top: 1rem;
+    }
+
+    .nav-item:last-of-type[b-sm1ypekexq] {
+        padding-bottom: 1rem;
+    }
+
+    .nav-item[b-sm1ypekexq]  a {
+        color: #d7d7d7;
+        border-radius: 4px;
+        height: 3rem;
+        display: flex;
+        align-items: center;
+        line-height: 3rem;
+    }
+
+        .nav-item[b-sm1ypekexq]  a.active {
+            background-color: rgba(255,255,255,0.25);
+            color: white;
+        }
+
+        .nav-item[b-sm1ypekexq]  a:hover {
+            background-color: rgba(255,255,255,0.1);
+            color: white;
+        }
+
+@media (min-width: 641px) {
+    .navbar-toggler[b-sm1ypekexq] {
+        display: none;
+    }
+
+    .collapse[b-sm1ypekexq] {
+        /* Never collapse the sidebar for wide screens */
+        display: block;
+    }
+}
+
+.chat-history-sec[b-sm1ypekexq] {
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding-top: 10px;
+    height: 91.5vh;
+}
+
+.chat-instance[b-sm1ypekexq] {
+    cursor: pointer;
+    color: white;
+    width: 90%;
+    border-radius: 4px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding: 5px 10px;
+}
+
+    .chat-instance.active[b-sm1ypekexq] {
+        background-color: rgba(255,255,255,0.25);
+    }
+/* _content/PDFChatbot_UI/Shared/MainLayout.razor.rz.scp.css */
+.page[b-hgnepar6w9] {
+    position: relative;
+    display: flex;
+}
+
+main[b-hgnepar6w9] {
+    flex: 1;
+}
+
+
+
+@media (max-width: 640.98px) {
+    .top-row:not(.auth)[b-hgnepar6w9] {
+        display: none;
+    }
+
+    .top-row.auth[b-hgnepar6w9] {
+        justify-content: space-between;
+    }
+
+    .top-row a[b-hgnepar6w9], .top-row .btn-link[b-hgnepar6w9] {
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 641px) {
+    .page[b-hgnepar6w9] {
+        flex-direction: row;
+    }
+
+    .sidebar[b-hgnepar6w9] {
+        width: 250px;
+        height: 100vh;
+        position: sticky;
+        top: 0;
+    }
+
+    .top-row[b-hgnepar6w9] {
+        position: sticky;
+        top: 0;
+        z-index: 1;
+    }
+
+    .top-row[b-hgnepar6w9], article[b-hgnepar6w9] {
+        padding-left: 2rem !important;
+        padding-right: 1.5rem !important;
+    }
+}
+
+.content[b-hgnepar6w9]{
+    display: flex;
+}
+/* _content/PDFChatbot_UI/Shared/NavMenu.razor.rz.scp.css */
+.navbar-toggler[b-ruf99yk5c7] {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.top-row[b-ruf99yk5c7] {
+    height: 3.5rem;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.navbar-brand[b-ruf99yk5c7] {
+    font-size: 1.1rem;
+}
+
+.oi[b-ruf99yk5c7] {
+    width: 2rem;
+    font-size: 1.1rem;
+    vertical-align: text-top;
+    top: -2px;
+}
+
+.nav-item[b-ruf99yk5c7] {
+    font-size: 0.9rem;
+    padding-bottom: 0.5rem;
+}
+
+    .nav-item:first-of-type[b-ruf99yk5c7] {
+        padding-top: 1rem;
+    }
+
+    .nav-item:last-of-type[b-ruf99yk5c7] {
+        padding-bottom: 1rem;
+    }
+
+    .nav-item[b-ruf99yk5c7]  a {
+        color: #d7d7d7;
+        border-radius: 4px;
+        height: 3rem;
+        display: flex;
+        align-items: center;
+        line-height: 3rem;
+    }
+
+.nav-item[b-ruf99yk5c7]  a.active {
+    background-color: rgba(255,255,255,0.25);
+    color: white;
+}
+
+.nav-item[b-ruf99yk5c7]  a:hover {
+    background-color: rgba(255,255,255,0.1);
+    color: white;
+}
+
+@media (min-width: 641px) {
+    .navbar-toggler[b-ruf99yk5c7] {
+        display: none;
+    }
+
+    .collapse[b-ruf99yk5c7] {
+        /* Never collapse the sidebar for wide screens */
+        display: block;
+    }
+}
